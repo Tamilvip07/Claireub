@@ -57,7 +57,7 @@ async def get_user(event):
 
 
 async def eor(e, msg, file=None, parse_mode="md", link_preview=False):
-    if e.sender_id == Vars.OWNER_ID:
+    if e.out:
         return await e.edit(
             msg, file=file, parse_mode=parse_mode, link_preview=link_preview
         )
