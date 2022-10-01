@@ -9,7 +9,7 @@ from config import Vars
 from telethon import events
 
 from claire import bot, user
-from .vars import authorized_
+from .owner import authorized_
 
 t = TelegraphPoster(use_api=True)
 t.create_api_token("bot")

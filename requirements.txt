@@ -9,5 +9,5 @@ bs4
 youtube_dl
 selenium
 youtube-search-python
-telegraph
+html_telegraph_poster
 cryptg

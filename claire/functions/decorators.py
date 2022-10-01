@@ -26,5 +26,5 @@ def grp_only(func):
 
 def msg_link(e):
     if e.chat.username:
-        return f"https://t.me/{e.chat.username}/'{e.id}"
+        return f"https://t.me/{e.chat.username}/{e.id}"
     return f"https://t.me/c/{e.chat.id}/{e.id}"
