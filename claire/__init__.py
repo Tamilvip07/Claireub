@@ -18,6 +18,6 @@ LOGGER = logging.getLogger(__name__)
 
 StartTime = time.time()
 
-bot = TelegramClient("user", Vars.APP_KEY, Vars.APP_HASH).start(bot_token=Vars.TOKEN)
-user = TelegramClient("bot", Vars.APP_KEY, Vars.APP_HASH).start()
+bot = TelegramClient("bot", Vars.APP_KEY, Vars.APP_HASH).start(bot_token=Vars.TOKEN)
+user = TelegramClient("user", Vars.APP_KEY, Vars.APP_HASH).start()
 
