@@ -5,7 +5,6 @@ from claire import LOGGER, bot
 
 
 def import_modules(logger):
-    """Imports all modules in the modules folder."""
     path = "claire/modules/"
     for filename in os.listdir(path):
         if filename.endswith(".py"):
